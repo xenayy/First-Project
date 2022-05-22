@@ -3,7 +3,13 @@
     padding: 0;
     font-family: 'Roboto';
 }
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 .header {
@@ -14,8 +20,10 @@ ul {
     gap: 90px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 80px;
 }
 .up {
+    /* background-color: cyan; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +42,7 @@ ul {
 .down{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 80px;
+    
     gap: 80px;
 }
 .txt-btn{
@@ -60,4 +68,91 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 80px;
+
+}
+.content h1 {
+    /* background-color: cyan; */
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    
+    padding-bottom: 30px;
+    flex: 1 1 0;
+}
+.cards{
+    
+    display: flex;
+    gap: 60px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    /* background-color: cyan; */
+}
+.box{
+    width: 13vw;
+    height: 13vw;
+    border:  2px solid #3882f6;
+    border-radius: 2vw;
+    flex: 1 1 auto;
+    margin-bottom: 15px;
+    /* background-color: cyan; */
+}
+.content2{
+    background-color:#e5e7eb ;
+    padding: 10vw 20vw;
+}
+.content2 p{
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+.content2 h4{
+    text-align: right;
+}
+.call{
+    color: #e5e7eb;
+   margin: 100px; 
+   background-color: #3882f6;
+   padding: 50px 80px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.call h4 {
+    font-size:  30px;
+    padding-bottom: 3px;
+}
+.call button{
+    border: none;
+    color: #e5e7eb;
+    font-size: 17px;
+    background-color:#3882f6 ;
+    border: 2px solid #e5e7eb;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.footer {
+    background-color: #1f2937;
+    padding: 30px 200px ;
+    text-align: center;
+    color: #e5e7eb;
 }
